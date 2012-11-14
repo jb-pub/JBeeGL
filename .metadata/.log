@@ -1,0 +1,161 @@
+!SESSION 2008-12-01 16:45:32.227 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_06
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -application JBeeGL.application
+Command-line arguments:  -application JBeeGL.application -data D:\Dev - App\J_Projects\JBeeGL -dev file:D:/Dev - App/J_Projects/.metadata/.plugins/org.eclipse.pde.core/JBGL/dev.properties
+
+!ENTRY org.eclipse.ui 4 0 2008-12-01 16:45:38.374
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at java.io.File.<init>(Unknown Source)
+	at com.jbee.rcp.gl.view.GLViewer$1.widgetSelected(GLViewer.java:47)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:228)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.jbee.rcp.gl.app.Application.run(Application.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:574)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:195)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+!SESSION 2008-12-01 17:05:02.228 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_06
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -application JBeeGL.application
+Command-line arguments:  -application JBeeGL.application -data D:\Dev - App\J_Projects\JBeeGL -dev file:D:/Dev - App/J_Projects/.metadata/.plugins/org.eclipse.pde.core/JBGL/dev.properties
+
+!ENTRY org.eclipse.ui.workbench 4 0 2008-12-01 17:05:04.911
+!MESSAGE Widget disposed too early!
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early!
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:804)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:755)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:174)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:771)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1211)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:807)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:441)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:446)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:674)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3472)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:261)
+	at com.jbee.rcp.gl.app.Application.run(Application.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:574)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:195)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+
+!ENTRY org.eclipse.osgi 4 0 2008-12-01 17:05:04.958
+!MESSAGE Application error
+!STACK 1
+java.lang.Error: Unresolved compilation problem: 
+	The method getColor() from the type Model refers to the missing type Color
+
+	at com.jbee.rcp.gl.engine.Render.rendering(Render.java:174)
+	at com.jbee.rcp.gl.view.GLPanel.createCanvasImg(GLPanel.java:766)
+	at com.jbee.rcp.gl.view.GLPanel$12.paintControl(GLPanel.java:666)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:217)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1424)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3842)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4541)
+	at org.eclipse.swt.internal.win32.OS.UpdateWindow(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setVisible(Decorations.java:1389)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:1764)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1150)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.ui.internal.WorkbenchWindow.open(WorkbenchWindow.java:778)
+	at org.eclipse.ui.internal.Workbench$22.runWithException(Workbench.java:1041)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$27.runWithException(Workbench.java:1361)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:178)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4251)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:94)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1356)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2312)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.jbee.rcp.gl.app.Application.run(Application.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:574)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:195)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
